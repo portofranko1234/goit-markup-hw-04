@@ -607,6 +607,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
 .filter-menu {
@@ -617,13 +618,14 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
 }
 
 .projects-list-link {
+  width: 100%;
   display: block;
-  max-width: 100%;
-  height: auto;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .projects-list-link:hover {
@@ -635,8 +637,6 @@ img {
 }
 
 .projects-list-item {
-  width: 370px;
-
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -649,33 +649,32 @@ img {
 }
 
 .img-description {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 
-.projects-list h3 {
+.description-title {
   font-weight: 900;
-  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--mostly-used-color);
 }
-.projects-list p {
+.description-paragraph {
   font-weight: 400;
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--second-level-color);
 }
 
-.projects-list h3:hover,
-.projects-list h3:focus {
+.description-title:hover,
+.description-title:focus {
   color: var(--accent-color);
 }
-.projects-list p:hover,
-.projects-list p:focus {
+
+.description-paragraph:hover,
+.description-paragraph:focus {
   color: var(--accent-color);
 }
