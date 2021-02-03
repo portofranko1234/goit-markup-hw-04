@@ -628,7 +628,8 @@ img {
   box-sizing: border-box;
 }
 
-.projects-list-link:hover {
+.projects-list-link:hover,
+.projects-list-link:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
